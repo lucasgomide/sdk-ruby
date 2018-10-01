@@ -11,13 +11,13 @@ class MercadoPagoTest < Test::Unit::TestCase
 	API_HOST = 'https://api.mercadopago.com'
 
 	DEFAULT_HEADERS = {
-		'Accept': 'application/json',
-		'Content-Type': 'application/json',
-		'User-Agent': 'MercadoPago Ruby SDK v0.3.5'
+		'Accept' => 'application/json',
+		'Content-Type' => 'application/json',
+		'User-Agent' => 'MercadoPago Ruby SDK v0.3.5'
 	}
 
 	HEADERS_WWW_FORM = DEFAULT_HEADERS.merge(
-		'Content-Type': 'application/x-www-form-urlencoded'
+		'Content-Type' => 'application/x-www-form-urlencoded'
 	)
 
 	def setup
